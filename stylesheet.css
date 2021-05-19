@@ -1,0 +1,51 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.boxes{
+	margin: 110px 380px 0 380px;
+	width: 520px;
+	height: 190px;
+	background-size: cover;
+	background-position: center;
+}
+
+.error{
+	font-size: 120px;
+	line-height: 140px;
+	font-weight: 400;
+	margin: 0 440px;
+	text-align: center;
+	width: 400px;
+}
+	
+.onmousehover{
+	display: none;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	opacity: 0;
+	transition: opacity .4s ease-in-out;
+	margin: 10px 440px 0 440px;
+	width: 400px;
+	text-align: center;
+}
+
+.error:hover + .onmousehover{
+	display: block;
+	opacity: 1;
+	color: #2f80ed;
+}
+
+.footer{
+	bottom: 30px;
+	left: 440px;
+	right: 440px;
+	position: fixed;
+	width: 400px;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: normal;
+	text-align: center;
+}
